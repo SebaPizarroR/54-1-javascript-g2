@@ -1,0 +1,62 @@
+/* RESET ESTILOS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ESTILOS BASE */
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+/* ESTILOS HEADER */
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+header p {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+/* ESTILOS NAV */
+nav {
+    background-color: grey;
+    padding: 16px 0;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: 600;
+}
+
+
+/* ESTILOS MAIN */
+
+main {
+    width: 80%;
+    margin:auto;
+    padding: 50px 0;
+}
+
+/* SECCIONES DE MAIN */
+
+main > section {
+    padding-bottom: 30px;
+}
