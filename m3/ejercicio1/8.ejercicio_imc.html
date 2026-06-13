@@ -1,0 +1,19 @@
+<script>
+
+    //SOLICITAR AL USUARIO INGRESAR EL PESO Y ESTATURA (UNIDADES A CRITERIO SEGUN FORMULA)
+
+    //RESULTADO: INDICARLE AL USUARIO SU IMC
+    //UTILIZAR PROMPT, ALERT Y VARIABLES
+
+    let peso = prompt("Ingrese su peso en kgs:");
+    let altura = prompt("Ingrese su altura en mts:");
+
+    peso = Number(peso);
+    altura = Number(altura);
+
+    let resultado = peso / (altura ** 2);
+
+    alert(`El resultado de su IMC es: ${resultado.toFixed(2)}`);
+
+
+</script>
