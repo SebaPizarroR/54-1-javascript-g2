@@ -1,0 +1,40 @@
+<script>
+
+
+    let mensaje =
+        `Menú de opciones, digite la opción (ejemplo: 1):
+1. Consultar saldo.
+2. Servicio al cliente.
+3. Contratar un plan teléfono.
+4. Contratar un plan internet.
+5. Comunicarse con un ejecutivo de la empresa.
+\n0. Salir del menú.
+    `;
+
+    let opcion = prompt(mensaje);
+
+    switch (opcion) {
+        case "1":
+            alert("Consultando saldo...");
+            break;
+        case "2":
+            alert("Derivando al servicio técnico.");
+            break;
+        case "3":
+        case "4":
+            alert("En breve será atendido por un ejecutivo de ventas.");
+            break;
+        case "5":
+            alert("En breve será atendido por un ejecutivo de la empresa.");
+            break;
+        case "0":
+            alert("Gracias por comunicarse con nosotros.");
+            break;
+
+        default:
+            alert("Opción inválida, vuelva a intentar.");
+            break;
+    }
+
+</script>
+
